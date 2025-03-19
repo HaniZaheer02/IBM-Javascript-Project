@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li {
+    margin: 0 15px;
+  }
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  nav ul li a.active,
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header for Home Page */
+  header {
+    text-align: center;
+    padding: 50px 20px;
+    background: #e2e2e2;
+  }
+  
+  /* Section Styles */
+  section {
+    max-width: 1000px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Recommendations */
+  .recommendation {
+    margin-bottom: 30px;
+  }
+  .recommendation h2 {
+    margin-bottom: 10px;
+  }
+  .recommendation .images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .recommendation .images img {
+    width: 48%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Contact Form */
+  #contactForm {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  #contactForm label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  #contactForm input,
+  #contactForm textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  #contactForm button {
+    margin-top: 15px;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  #contactForm button:hover {
+    background: #555;
+  }
+  
